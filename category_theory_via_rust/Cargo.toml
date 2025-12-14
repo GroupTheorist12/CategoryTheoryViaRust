@@ -1,0 +1,22 @@
+[package]
+name = "category_theory_via_rust"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "functor_test"   
+path = "src/functor_test.rs"   
+[[bin]]
+name = "test_categories"   
+path = "src/test_categories.rs"   
+[[bin]]
+name = "test_category_functors"   
+path = "src/test_category_functors.rs"   
+[[bin]]
+name = "test_functor_composition"   
+path = "src/test_functor_composition.rs"   
+
+
+
+
+[dependencies]
